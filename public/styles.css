@@ -1,0 +1,157 @@
+html,*{
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgb(199, 212, 212);
+   
+
+}
+h2{
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #575ed8;
+}
+body{
+    position: relative;
+}
+.msg-box{
+    margin-top: 30px;
+
+}
+
+.naver{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+    
+}
+.mene{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    background-color: rgb(68, 56, 56);
+   
+    list-style: none;
+   
+
+}
+.mene{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+ 
+    list-style: none;
+
+
+}
+
+.mene a{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    color: white;
+    text-decoration: none;
+    padding-left: 50px;
+   
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin: 15px;
+
+}
+#first-chat{
+    
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: 1px solid #ddd;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
+    border-radius: 2px;
+    background-color: rgb(122, 120, 118);
+    
+}
+#w-chat{
+  
+    height: 150px;
+    overflow: auto;
+    background: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+#output p{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:flex-start;
+    padding: 14px;
+    margin: 10px;
+    border-bottom: 1px solid #e9e9e9;
+    color: rgb(7, 29, 2);
+    background-color: rgba(207, 126, 235, 0.836);
+}
+
+
+#feedback p{
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#output strong{
+    color: white;
+}
+
+label{
+    width: 80px;
+    display: flex;
+    flex-direction:row;
+    padding: 10px ;
+    align-items: flex-start;
+}
+
+input,textarea{
+    width: 300px;
+    display: flex;
+    flex-direction:row;
+    align-items:stretch;
+    justify-content: space-between;
+    padding: 10px;
+    background: #eee;
+    margin-left: 10px;
+    border: 1px solid #eee;
+    background: #fff;
+    font-family: Nunito;
+    font-size: 16px;
+}
+
+button{
+    background: #465153;
+    margin-bottom: 5px;
+    color: rgb(238, 231, 231);
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 10px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:flex-start;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:flex-start;
+}
+
+
+

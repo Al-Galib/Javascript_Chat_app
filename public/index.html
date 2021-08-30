@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Web socket</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.2/socket.io.js" ></script>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="naver">
+        <ul class="mene ">
+            <li class="items"><a href="#">Home</a></li>
+            <li class="items"><a href="#">Chat</a></li>
+            <li class="items"><a href="#">Contact</a></li>
+        </ul>
+        
+    </nav>
+   <div class="msg-box">
+    <div id="first-chat">
+        <label for="handle">Name</label>
+        <input type="text" id="handle" value="" placeholder="" />     
+        </div >
+        </div>
+        <div id="first-chat">
+            <label for="message">What do you say?</label>
+                <textarea name="message" id="message" rows="5"></textarea> </div >
+          <div id=>  <button id="send">Send</button></div>
+ <div id="w-chat">
+    <div id="output"> </div>
+    <div id="feedback"></div>
+</div>
+   </div>
+   
+  
+    <script src="/chat.js"></script>
+</body>
+</html>  
